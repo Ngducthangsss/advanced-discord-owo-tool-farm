@@ -32,8 +32,8 @@ export class BaseAgent extends Client {
 	owoID = "408785106942164992";
 	prefix = "owo ";
 	private owoCommands = shuffleArray([
-		...Array<string>(7).fill("hunt"),
-		...Array<string>(3).fill("battle"),
+		...Array<string>(5).fill("hunt"),
+		...Array<string>(5).fill("battle"),
 	]);
 	public commands: Collection<string, Commands> = new Collection();
 	captchaDetected = false;
